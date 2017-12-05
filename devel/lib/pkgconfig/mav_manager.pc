@@ -1,0 +1,8 @@
+prefix=/home/aarow/ros/vio_swarm_groundstation_ws/devel
+
+Name: mav_manager
+Description: Description of mav_manager
+Version: 1.0.0
+Cflags: -I/home/aarow/ros/vio_swarm_groundstation_ws/devel/include -I/home/aarow/ros/vio_swarm_groundstation_ws/src/quadrotor_control/mav_manager/include -I/usr/include/eigen3
+Libs: -L/home/aarow/ros/vio_swarm_groundstation_ws/devel/lib -lmav_manager
+Requires: roscpp nav_msgs sensor_msgs geometry_msgs quadrotor_msgs trackers_manager std_trackers std_msgs message_runtime

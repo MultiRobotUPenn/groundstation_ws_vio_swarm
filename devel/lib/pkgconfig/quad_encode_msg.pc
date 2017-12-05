@@ -1,0 +1,8 @@
+prefix=/home/aarow/ros/vio_swarm_groundstation_ws/devel
+
+Name: quad_encode_msg
+Description: Description of quad_encode_msg
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/aarow/ros/vio_swarm_groundstation_ws/devel/lib 
+Requires: roscpp quadrotor_msgs nodelet

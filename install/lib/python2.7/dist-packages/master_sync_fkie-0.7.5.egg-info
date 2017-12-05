@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: master_sync_fkie
+Version: 0.7.5
+Summary: Synchronize the local ROS master to the remote masters 
+     discovered by master_discovery_fkie node. The registration
+     of topics and services is only perform by local ROS master.
+Home-page: http://ros.org/wiki/master_sync_fkie
+Author: Alexander Tiderko
+Author-email: alexander.tiderko@gmail.com
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN

@@ -1,0 +1,17 @@
+Metadata-Version: 1.0
+Name: master_discovery_fkie
+Version: 0.7.5
+Summary: Discover the running ROS Masters in local network. The 
+     discovering is done by sending an echo heartbeat messages to a defined 
+     multicast group.
+     The alternative is to use a zeroconf/...
+Home-page: http://ros.org/wiki/master_discovery_fkie
+Author: Alexander Tiderko
+Author-email: alexander.tiderko@gmail.com
+License: BSD
+Description: Discover the running ROS Masters in local network. The 
+             discovering is done by sending an echo heartbeat messages to a defined 
+             multicast group.
+             The alternative is to use a zeroconf/avahi daemon to register the ROS 
+             master as service and discover other ROS masters.
+Platform: UNKNOWN

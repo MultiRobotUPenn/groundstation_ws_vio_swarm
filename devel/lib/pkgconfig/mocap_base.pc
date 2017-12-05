@@ -1,0 +1,8 @@
+prefix=/home/aarow/ros/vio_swarm_groundstation_ws/devel
+
+Name: mocap_base
+Description: Description of mocap_base
+Version: 0.0.1
+Cflags: -I/home/aarow/ros/vio_swarm_groundstation_ws/src/motion_capture_system/mocap_base/include -I/usr/include -I/usr/include/eigen3
+Libs: -L/home/aarow/ros/vio_swarm_groundstation_ws/devel/lib -lmocap_base_driver -lmocap_kalman_filter
+Requires: geometry_msgs

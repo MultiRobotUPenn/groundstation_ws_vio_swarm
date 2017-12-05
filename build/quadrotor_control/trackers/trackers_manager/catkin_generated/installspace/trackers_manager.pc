@@ -1,0 +1,8 @@
+prefix=/home/aarow/ros/vio_swarm_groundstation_ws/install
+
+Name: trackers_manager
+Description: Description of trackers_manager
+Version: 1.0.0
+Cflags: -I/home/aarow/ros/vio_swarm_groundstation_ws/install/include
+Libs: -L/home/aarow/ros/vio_swarm_groundstation_ws/install/lib -ltrackers_manager
+Requires: roscpp nodelet pluginlib quadrotor_msgs nav_msgs

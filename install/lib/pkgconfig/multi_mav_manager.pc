@@ -1,0 +1,8 @@
+prefix=/home/aarow/ros/vio_swarm_groundstation_ws/install
+
+Name: multi_mav_manager
+Description: Description of multi_mav_manager
+Version: 1.0.0
+Cflags: -I/home/aarow/ros/vio_swarm_groundstation_ws/install/include
+Libs: -L/home/aarow/ros/vio_swarm_groundstation_ws/install/lib -lmav_manager
+Requires: roscpp nav_msgs sensor_msgs geometry_msgs quadrotor_msgs mav_manager std_msgs std_srvs message_runtime

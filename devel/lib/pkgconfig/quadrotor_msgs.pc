@@ -1,0 +1,8 @@
+prefix=/home/aarow/ros/vio_swarm_groundstation_ws/devel
+
+Name: quadrotor_msgs
+Description: Description of quadrotor_msgs
+Version: 1.0.0
+Cflags: -I/home/aarow/ros/vio_swarm_groundstation_ws/devel/include -I/home/aarow/ros/vio_swarm_groundstation_ws/src/quadrotor_control/quadrotor_msgs/include -I/usr/include/eigen3
+Libs: -L/home/aarow/ros/vio_swarm_groundstation_ws/devel/lib -lencode_msgs -ldecode_msgs
+Requires: message_runtime geometry_msgs nav_msgs

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/aarow/ros/vio_swarm_groundstation_ws/src/multi_mav_manager/include/capt/hungarian/hungarian.cpp
+stdio.h
+-
+limits
+-
+hungarian.h
+-
+
+/home/aarow/ros/vio_swarm_groundstation_ws/src/multi_mav_manager/include/capt/hungarian/hungarian.h
+

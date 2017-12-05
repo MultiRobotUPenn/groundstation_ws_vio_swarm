@@ -1,0 +1,8 @@
+prefix=/home/aarow/ros/vio_swarm_groundstation_ws/devel
+
+Name: std_trackers
+Description: Description of std_trackers
+Version: 1.0.0
+Cflags: -I/home/aarow/ros/vio_swarm_groundstation_ws/src/quadrotor_control/trackers/std_trackers/include -I/usr/include/eigen3
+Libs: -L/home/aarow/ros/vio_swarm_groundstation_ws/devel/lib 
+Requires: geometry_msgs tf trackers_manager

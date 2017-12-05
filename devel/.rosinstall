@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/aarow/ros/vio_swarm_groundstation_ws/devel/setup.sh

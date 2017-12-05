@@ -1,0 +1,16 @@
+<launch>
+
+  <arg name="sim" default="1"/>
+  <arg name="launch_mocap" default="0"/>
+  <arg name="use_vicon" default="0"/> 
+  <arg name="config_path" value="$(find multi_mav_manager)/config/dragonfly"/>
+  <arg name="masses" value="0.58"/>
+
+  <node pkg="multi_mav_manager"
+      type="multi_mav_services"
+      name="multi_mav_services"
+      output="screen">
+    <rosparam file="$(arg config_path)/multi_mav_manager.yaml"/>
+  </node>
+
+</launch>

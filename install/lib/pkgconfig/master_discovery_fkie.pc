@@ -1,0 +1,8 @@
+prefix=/home/aarow/ros/vio_swarm_groundstation_ws/install
+
+Name: master_discovery_fkie
+Description: Description of master_discovery_fkie
+Version: 0.7.5
+Cflags: 
+Libs: -L/home/aarow/ros/vio_swarm_groundstation_ws/install/lib 
+Requires: multimaster_msgs_fkie

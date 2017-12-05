@@ -1,0 +1,28 @@
+<launch>
+  <arg name="use_vicon" default="0"/> <!-- Otherwise, use Qualisys. -->
+
+  <arg name="mocap_type" default="qualisys" unless="$(arg use_vicon)"/>
+  <arg name="mocap_type" default="vicon" if="$(arg use_vicon)"/>
+
+
+
+  <node pkg="mocap_$(arg mocap_type)"
+    type="mocap_$(arg mocap_type)_node"
+    name="$(arg mocap_type)"
+    output="screen">
+    <param name="server_address" value="mocap"/>
+    <param name="server_base_port" value="22222" unless="$(arg use_vicon)"/>
+    <param name="frame_rate" value="100"/>
+    <param name="max_accel" value="10.0"/>
+    <param name="publish_tf" value="false"/>
+    <param name="fixed_frame_id" value="mocap"/>
+    <rosparam param="model_list">
+      ['QuadrotorTango', 'QuadrotorUniform', 'QuadrotorVictor', 'QuadrotorWhiskey', 'QuadrotorXray']
+    </rosparam>
+    <remap from="$(arg mocap_type)/QuadrotorTango/odom" to="/QuadrotorTango/odom"/>
+    <remap from="$(arg mocap_type)/QuadrotorUniform/odom" to="/QuadrotorUniform/odom"/>
+    <remap from="$(arg mocap_type)/QuadrotorVictor/odom" to="/QuadrotorVictor/odom"/>
+    <remap from="$(arg mocap_type)/QuadrotorWhiskey/odom" to="/QuadrotorWhiskey/odom"/>
+    <remap from="$(arg mocap_type)/QuadrotorXray/odom" to="/QuadrotorXray/odom"/>
+  </node>
+</launch>
